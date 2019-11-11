@@ -86,12 +86,60 @@
 		#header{
 			background-color: #FFFFFF !important;
 			color: #000000 !important;
+			height: 7vh !important;
 		}
 		#headerDesktop .subtitle{
 			color: #000000 !important;
 		}
 		#paneLeft{
 			background-color: #FFFFFF !important;
+		}
+		#mainStagePanel, #paneLeft{
+			width: 50% !important;
+		}
+		#myList{
+			width: 50% !important;
+		}
+		#mainStagePanel{
+			left: 50% !important;
+		}
+		.linkContainer{
+			display: none;
+		}
+		#headerDesktop .rightArea {
+			padding-top: 0px;
+		}
+		ul.tilelist{
+			padding-left: 40px;
+		}
+		ul.tilelist li{
+			width:200px;
+			height: 200px;
+		}
+		ul.tilelist li:hover{
+			box-shadow: none;
+		}
+		.tileImage{
+			width:200px;
+			height: 141px;
+		}
+		ul.tilelist .footer{
+			top: 145px;
+		}
+		ul.tilelist .blurb{
+			font-size: 1em;
+		}
+		.logoLink, .title, .subtitle{
+			display: inline-block !important;
+		}
+		.logoImg{
+			vertical-align: baseline !important;
+		}
+		.subtitle{
+			height: 3.3vh !important;
+		}
+		.shareIcon{
+			margin-top: 2.5vh !important;
 		}
 			/* CUSTOM CSS RULES */
 		</style>
@@ -119,7 +167,7 @@
 						</span>
 					</div>
 					<div class="logoContainer">
-						<table class="logoContainerInner">
+						<!-- <table class="logoContainerInner">
 							<tr>
 								<td class="logoWrapper">
 									<a class="logoLink" target="_blank" tabindex="-1">
@@ -127,12 +175,21 @@
 									</a>
 								</td>
 							</tr>
-						</table>
+						</table> -->
 					</div>
 				</div>
 				<div class="textArea">
-					<h1 class="title" tabindex="0"></h1>
-					<h2 class="subtitle" tabindex="0"></h2>
+					<!-- <table class="logoContainerInner">
+						<tr>
+							<td class="logoWrapper"> -->
+								<a class="logoLink" target="_blank" tabindex="-1">
+									<img class="logoImg"/>
+								</a>
+							<!-- </td>
+						</tr> -->
+					<!-- </table> -->
+					<span class="title" tabindex="0"></span>
+					<span class="subtitle" tabindex="0"></span>
 				</div>
 				<div class="builder-mask"></div>
 			</div>
