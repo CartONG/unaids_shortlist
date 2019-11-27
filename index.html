@@ -81,6 +81,7 @@
 		    font-weight: normal;
 		    font-style: normal;
 		}
+		/* Style for mobile devices */
 		@media all and (min-width:0px) and (max-width: 768px) {
 			.detailFeatureDesc a{
 				color: #e31837 !important;
@@ -88,7 +89,25 @@
 			.detailPictureDiv{
 				text-align: left;
 			}
+			#mobileIntro{
+				background-color: white !important;
+			}
+			.mobileTitle{
+				color: black !important;
+				/* margin-left: 0px !important; */
+			}
+			.mobileSnippet{
+				color: black !important;
+			}
+			.introList, .mobileTitleThemes{
+				background-color: #3a3939 !important;
+			}
+			.logoImg{
+				height: 35px;
+				vertical-align: text-top !important;
+			}
 		}
+		/* Style for desktop devices */
 		@media all and (min-width:960px) {
 			.claro{
 				font-family: 'Avenir', 'open_sans',sans-serif !important;
