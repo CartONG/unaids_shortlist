@@ -81,83 +81,94 @@
 		    font-weight: normal;
 		    font-style: normal;
 		}
-		.claro{
-			font-family: 'Avenir', 'open_sans',sans-serif !important;
+		@media all and (min-width:0px) and (max-width: 768px) {
+			.detailFeatureDesc a{
+				color: #e31837 !important;
+			}
+			.detailPictureDiv{
+				text-align: left;
+			}
 		}
-		#header{
-			background-color: #FFFFFF !important;
-			color: #000000 !important;
-			height: 60px !important;
+		@media all and (min-width:960px) {
+			.claro{
+				font-family: 'Avenir', 'open_sans',sans-serif !important;
+			}
+			#header{
+				background-color: #FFFFFF !important;
+				color: #000000 !important;
+				height: 60px !important;
+			}
+			#headerDesktop .subtitle{
+				color: #000000 !important;
+			}
+			#paneLeft{
+				background-color: #FFFFFF !important;
+			}
+			#mainStagePanel, #paneLeft{
+				width: 50% !important;
+			}
+			#myList{
+				width: 50% !important;
+			}
+			#mainStagePanel{
+				left: 50% !important;
+			}
+			.linkContainer{
+				display: none;
+			}
+			#headerDesktop .rightArea {
+				padding-top: 0px;
+			}
+			ul.tilelist{
+				padding-left: 40px;
+			}
+			ul.tilelist li{
+				width:200px;
+				height: 200px;
+			}
+			ul.tilelist li:hover{
+				box-shadow: none;
+			}
+			.tileImage{
+				width:200px;
+				height: 141px;
+			}
+			ul.tilelist .footer{
+				top: 145px;
+			}
+			ul.tilelist .blurb{
+				font-size: 1em;
+			}
+			.logoLink, .title, .subtitle{
+				display: inline-block !important;
+			}
+			.logoImg{
+				vertical-align: baseline !important;
+			}
+			.subtitle{
+				padding-top: 22px !important;
+			}
+			.shareIcon{
+				margin-top: 2.5vh !important;
+			}
+			#contentPanel{
+				border-top: 3px solid red !important;
+			}
+			#headerDesktop .textArea{
+				margin-top: 0px !important;
+				padding-top: 0px !important;
+			}
+			#nav-bar{
+				background-color: white !important;
+			}
+			.detailFeatureDesc a{
+				color: #e31837 !important;
+			}
+			.detailPictureDiv{
+				text-align: left;
+			}
 		}
-		#headerDesktop .subtitle{
-			color: #000000 !important;
-		}
-		#paneLeft{
-			background-color: #FFFFFF !important;
-		}
-		#mainStagePanel, #paneLeft{
-			width: 50% !important;
-		}
-		#myList{
-			width: 50% !important;
-		}
-		#mainStagePanel{
-			left: 50% !important;
-		}
-		.linkContainer{
-			display: none;
-		}
-		#headerDesktop .rightArea {
-			padding-top: 0px;
-		}
-		ul.tilelist{
-			padding-left: 40px;
-		}
-		ul.tilelist li{
-			width:200px;
-			height: 200px;
-		}
-		ul.tilelist li:hover{
-			box-shadow: none;
-		}
-		.tileImage{
-			width:200px;
-			height: 141px;
-		}
-		ul.tilelist .footer{
-			top: 145px;
-		}
-		ul.tilelist .blurb{
-			font-size: 1em;
-		}
-		.logoLink, .title, .subtitle{
-			display: inline-block !important;
-		}
-		.logoImg{
-			vertical-align: baseline !important;
-		}
-		.subtitle{
-			padding-top: 22px !important;
-		}
-		.shareIcon{
-			margin-top: 2.5vh !important;
-		}
-		#contentPanel{
-			border-top: 3px solid red !important;
-		}
-		#headerDesktop .textArea{
-			margin-top: 0px !important;
-			padding-top: 0px !important;
-		}
-		#nav-bar{
-			background-color: white !important;
-		}
-		.detailFeatureDesc a{
-			color: #e31837 !important;
-		}
-		.detailPictureDiv{
-			text-align: left;
-		}
+
 			/* CUSTOM CSS RULES */
 		</style>
 
